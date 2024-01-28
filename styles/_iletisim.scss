@@ -1,0 +1,38 @@
+.contact{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center ;
+    width: 80%;
+    margin: 0 auto;
+    &_child{
+        flex-basis: 45%;
+        form{
+            padding: 50px 40px;
+            background: #2f363e;
+            border-radius: 10px;
+            input:last-child{
+                
+                background: #24caac;
+                margin-bottom: 0;   
+                &:hover{
+                    
+                    border: 1.5px solid #24caac;
+                    background: transparent;
+                }
+            }
+            input,textarea{
+                width: 100%;
+                padding: 10px;
+                margin-bottom: 20px;
+                background: #24292d;
+                border: none;
+                border-radius: 25px;
+                resize: none;color: #fff;
+                
+                
+            }
+        }
+    }
+
+}

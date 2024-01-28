@@ -1,0 +1,51 @@
+.achivement{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center ;
+    width: 80%;
+    margin: 0 auto;
+    &_child {
+        flex-basis: 40%;
+        img{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+    &_boxes{
+        flex-basis: 46%;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: space-between;
+        :hover{
+                cursor: pointer;
+                scale: 1.1;
+            }
+        .box{
+            flex-basis: 48%;
+            padding: 40px 30px;
+            color: #fff;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            
+        }
+        .orange{
+            background: #eaa023;
+            margin-bottom: 20px;
+        }
+        .pink{
+            background: #e91e63;
+            margin-bottom: 20px;
+        }
+        .aqua{
+            background: #24caac ;
+            margin-bottom: 20px;
+        }
+        .gray{
+            background: #2f363e;
+            margin-bottom: 20px;
+        }
+    }
+}

@@ -1,0 +1,45 @@
+@media screen and (max-width:1015px){
+     .nav_links li a{
+    display: none;
+  }
+  .courses{
+    flex-wrap: nowrap;
+  }
+  
+}
+@media screen and (max-width:760px) {
+    .contact{
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    &_child{
+      margin-top: 50px;     
+    }
+  }
+  .nav #menu_bar i .bi-list{
+    display: grid;
+    color: #fff;
+    position: absolute;
+    right: 5%;
+    top: 20%;
+    border: 1px solid #fff;
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  .anasayfa_inner{
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+  .courses{
+    flex-wrap: wrap;
+  }
+  .achivement{
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+  .anasayfa_child{
+    text-align: center;
+  }
+}

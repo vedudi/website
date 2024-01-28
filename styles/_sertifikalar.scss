@@ -1,0 +1,33 @@
+.courses{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items:center ;  
+    width: 80%;
+    margin: 0 auto;
+    &_child{
+        flex-basis: 24%;
+        padding: 20px 10px;
+        border: 1px solid transparent;
+        border-radius: 5px;
+        .detail{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 20px;
+            ul{
+                color: gold;
+               display: flex;
+               justify-content: space-between;
+               flex-basis: 50%;
+            }
+        }
+        p,h3{
+            color: #fff;
+        }
+        
+        &:hover{
+            border: 1px solid #24caac;
+        }
+    }
+}
